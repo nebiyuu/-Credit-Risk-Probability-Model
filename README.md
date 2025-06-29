@@ -1,12 +1,12 @@
-## Credit Scoring Business Understanding
+# Credit Scoring Business Understanding
 How does the Basel II Accord's emphasis on risk measurement influence our need for an interpretable and well-documented model?
 The Basel II Accord, particularly through its Pillar 1 (Internal Ratings-Based approach) and Pillar 2 (Supervisory Review), mandates that banks using their own models for capital calculations demonstrate their risk measurement systems are robust, logical, and transparent. This directly influences the need for an interpretable model where the impact of each variable on the final risk score is clear.  An interpretable model enables the bank to:
 
-# Justify decisions to auditors and regulators. 
+Justify decisions to auditors and regulators. 
 
-# Conduct effective model validation and stress testing. 
+Conduct effective model validation and stress testing. 
 
-# Ensure accountability by explaining outcomes to stakeholders. 
+Ensure accountability by explaining outcomes to stakeholders. 
 
 A "black-box" model, regardless of its accuracy, would not pass supervisory review because its inner workings are not auditable or provably sound and non-discriminatory. 
 
