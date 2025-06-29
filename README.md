@@ -1,4 +1,43 @@
+# Credit Risk Probability Model
+## Project Structure
+
+```
+.gitignore
+README.md
+requirments.txt
+.github/
+    workflows/
+        py.yml
+data/
+    processed/
+    raw/
+        data.csv
+notebook/
+script/
+src/
+```
+
+- **.github/**: GitHub Actions workflows for CI/CD.
+- **data/**: Contains raw and processed datasets.
+- **notebook/**: Jupyter notebooks for exploratory analysis and prototyping.
+- **script/**: Standalone scripts for data processing or model training.
+- **src/**: Source code for the main application and modules.
+
+## Requirements
+
+Install dependencies with:
+```sh
+pip install -r requirments.txt
+```
+
+
 # Credit Scoring Business Understanding
+
+## Overview
+
+This project explores credit scoring model development in a regulated financial context. It discusses the importance of model interpretability, the use of proxy variables for rare default events, and the trade-offs between simple and complex modeling approaches.
+
+
 How does the Basel II Accord's emphasis on risk measurement influence our need for an interpretable and well-documented model?
 The Basel II Accord, particularly through its Pillar 1 (Internal Ratings-Based approach) and Pillar 2 (Supervisory Review), mandates that banks using their own models for capital calculations demonstrate their risk measurement systems are robust, logical, and transparent. This directly influences the need for an interpretable model where the impact of each variable on the final risk score is clear.  An interpretable model enables the bank to:
 
