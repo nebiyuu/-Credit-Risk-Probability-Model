@@ -97,13 +97,21 @@ In a regulated financial context, choosing between simple and complex models inv
 #### Complex Models (e.g., Gradient Boosting):
 
 - **Pros:**
-  - 🟢 Offer superior predictive performance, capable of identifying intricate patterns, leading to more accurate risk assessment, better portfolio management, and potentially lower capital allocation.
+  - 🟢 Deliver superior predictive performance by capturing complex, non-linear relationships in the data.
+  - 🟢 Enable more accurate risk assessment, improved portfolio management, and potentially lower capital allocation.
 
 - **Cons:**
-  - 🔴 Their "black-box" nature makes it extremely difficult to explain why a specific decision was made, posing a significant challenge for regulatory approval.
-  - 🔴 More prone to overfitting and can be less stable.
+  - 🔴 Often operate as "black-box" models, making it challenging to explain individual decisions—a significant barrier for regulatory approval.
+  - 🔴 More susceptible to overfitting and may exhibit less stability compared to simpler models.
 
 ---
 
-> **The key trade-off is between _Performance_ vs. _Interpretability_.**  
-> In the highly regulated banking environment, the non-negotiable requirement for regulatory approval often makes a slightly less powerful but fully transparent model the only viable choice for official capital calculation. each variable on the final risk score is clear.  An interpretable model enables the bank to:
+> **The fundamental trade-off is between _Performance_ and _Interpretability_.**  
+> In highly regulated banking environments, regulatory approval is paramount. As a result, a slightly less powerful but fully transparent model is often the only viable choice for official capital calculations.  
+> 
+> An interpretable model ensures that the contribution of each variable to the final risk score is clear. This transparency enables the bank to:
+> - Justify decisions to auditors and regulators
+> - Conduct effective model validation and stress testing
+> - Ensure accountability by explaining outcomes to stakeholders
+
+A "black-box" model, regardless of its accuracy, is unlikely to pass supervisory review due to its lack of transparency and auditability.
