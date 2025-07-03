@@ -5,3 +5,7 @@ matplotlib
 seaborn
 woe
 xverse
+mlflow
+scikit-learn
+pandas
+pytest
